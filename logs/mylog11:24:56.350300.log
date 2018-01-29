@@ -1,0 +1,14 @@
+DEBUG    [2018-01-26 11:24:56,365] Starting new HTTPS connection (1): api.telegram.org
+DEBUG    [2018-01-26 11:25:01,809] https://api.telegram.org:443 "GET /bot498694895:AAEmnTf3mAcoffpWgIfuE0p8J98cpV1sqgs/getUpdates?offset=1&timeout=20 HTTP/1.1" 200 425
+INFO     [2018-01-26 11:25:01,811] Пользователь -- German(209715848):  начата работа с ботом
+DEBUG    [2018-01-26 11:25:18,172] https://api.telegram.org:443 "GET /bot498694895:AAEmnTf3mAcoffpWgIfuE0p8J98cpV1sqgs/getUpdates?offset=534484927&timeout=20 HTTP/1.1" 200 385
+DEBUG    [2018-01-26 11:25:36,460] https://api.telegram.org:443 "GET /bot498694895:AAEmnTf3mAcoffpWgIfuE0p8J98cpV1sqgs/getUpdates?offset=534484928&timeout=20 HTTP/1.1" 200 434
+INFO     [2018-01-26 11:25:36,461] Пользователь -- German(209715848): начала игру, нажата кнопка /start
+DEBUG    [2018-01-26 11:25:36,463] ('SELECT "t1"."id", "t1"."user_name", "t1"."user_surname", "t1"."user_id", "t1"."user_level", "t1"."user_start_game", "t1"."user_end_game" FROM "user" AS t1 WHERE ("t1"."user_id" = ?) LIMIT 1 OFFSET 0', [209715848])
+INFO     [2018-01-26 11:25:36,468] Пользователь -- German(209715848): поиск пользователя в бд
+INFO     [2018-01-26 11:25:36,469] Пользователь -- German(209715848): найден в бд
+DEBUG    [2018-01-26 11:25:36,472] Starting new HTTPS connection (1): api.telegram.org
+DEBUG    [2018-01-26 11:25:36,877] https://api.telegram.org:443 "POST /bot498694895:AAEmnTf3mAcoffpWgIfuE0p8J98cpV1sqgs/sendMessage?chat_id=209715848&text=%D0%A2%D1%8B+%D1%83%D0%B6%D0%B5+%D0%B2+%D0%B8%D0%B3%D1%80%D0%B5+German HTTP/1.1" 200 385
+DEBUG    [2018-01-26 11:25:36,878] ('SELECT "t1"."id", "t1"."user_name", "t1"."user_surname", "t1"."user_id", "t1"."user_level", "t1"."user_start_game", "t1"."user_end_game" FROM "user" AS t1 WHERE ("t1"."user_id" = ?) LIMIT 1 OFFSET 0', [209715848])
+DEBUG    [2018-01-26 11:25:36,995] https://api.telegram.org:443 "POST /bot498694895:AAEmnTf3mAcoffpWgIfuE0p8J98cpV1sqgs/sendMessage?chat_id=209715848&text=%D0%A2%D0%B2%D0%BE%D0%B9+%D1%83%D1%80%D0%BE%D0%B2%D0%B5%D0%BD%D1%8C%3A+0 HTTP/1.1" 200 385
+DEBUG    [2018-01-26 11:25:56,537] https://api.telegram.org:443 "GET /bot498694895:AAEmnTf3mAcoffpWgIfuE0p8J98cpV1sqgs/getUpdates?offset=534484929&timeout=20 HTTP/1.1" 200 23
